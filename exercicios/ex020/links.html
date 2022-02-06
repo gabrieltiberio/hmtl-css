@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+       
+        a {
+            color: cadetblue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: chocolate;
+        }
+
+        a:hover {
+            color: cornflowerblue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(160, 189, 107);
+        }
+
+        .especial {
+            background-color: rgba(194, 233, 122, 0.267);
+        }
+        
+        .especial::after {
+            font-size: small;
+            color: rgb(66, 91, 117);
+            
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gabrieltiberio">GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UC3H4VWGeVpKP1_OPfGNA2nA" class="especial">YouTube</a></li>
+        <li><a href="https://twitter.com/tibaass">Twitter</a></li>
+        <li><a href="https://books.google.com.br">Livros</a></li>
+    </ul>
+</body>
+</html>

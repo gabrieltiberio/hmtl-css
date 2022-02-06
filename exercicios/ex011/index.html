@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midías em HTML</title>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente diminuia o tamanho do seu navegador</p>
+
+    <picture>
+
+        <source media="(max-width: 750px )" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="Imagem Flexivel">
+
+    </picture>
+
+
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Iniciando reproduções de áudio em HTML5 </p>
+   <audio preload="none" controls loop> 
+       <source src="midia/The Beatles-The White Album-15-Why Don't We Do It In The Road.ogg" type="audio/ogg">
+       
+       <p>infelizmente o seu navegador não é compativel com áudios. Clique <a href="midia/The Beatles-The White Album-15-Why Don't We Do It In The Road.ogg">aqui</a> para baixar</p>
+   </audio>
+</body>
+</html>
