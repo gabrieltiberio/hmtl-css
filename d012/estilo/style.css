@@ -39,16 +39,31 @@ section {
 }
 
 section.normal {
+    font-size: 20px;
     background-color: antiquewhite;
 }
 
 section.imagem {
     background-color: cornflowerblue ;
+    font-size: 20px;    
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    width: 300px;
+    width: 230px;
     background-color: darkseagreen
+}
+
+section#img001 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img002 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right bottom;
 }
 
 a {
